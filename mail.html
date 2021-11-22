@@ -12,17 +12,30 @@
     />
     <title>lr1</title>
   </head>
-  <body>
+  <body style="width: 480px; margin-top: 40px; margin-left: 40px">
     <form action="https://formspree.io/f/mlezrrkv" method="POST">
-      <label>
-        Your email:
-        <input type="email" name="_replyto" />
-      </label>
-      <label>
-        Your message:
-        <textarea name="message"></textarea>
-      </label>
-      <button type="submit">Send</button>
+      <label for="exampleInputEmail1">Email address</label>
+      <input
+        type="email"
+        name="_replyto"
+        class="form-control"
+        id="exampleInputEmail1"
+        aria-describedby="emailHelp"
+        placeholder="Enter email"
+      />
+      <small id="emailHelp" class="form-text text-muted"
+        >We'll share your email.</small
+      >
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Your message:</label>
+        <textarea
+          name="message"
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+        ></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send</button>
     </form>
   </body>
 </html>
