@@ -1,0 +1,25 @@
+.main-container {
+    display: flex;
+}
+
+.info {
+    position: absolute;
+}
+
+.main-content, .body {
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.in-image {
+    width: 630px;
+    height: auto;
+    margin-bottom: 12px;
+}
+
+.images {
+    align-items: center;
+    justify-content: center;
+    margin-left: 8%; 
+    margin-right: 8%; 
+}
